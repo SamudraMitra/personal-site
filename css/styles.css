@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*if the browser doesnt support merriweather font style,..serif will be displayed*/
+  color: #40514E;
+}
+p
+{
+  line-height:2;
+}
+h1 {
+  margin: 50px auto 0 auto;/*using auto would mean that it would be centred wrt the top container*/
+  font-family: 'Comforter', cursive;
+  font-size: 5.625rem;/*16px=100%=1rem...by using percentage or em we make the font size dynamic,..which means that the font size will change wrt the size settings used in the browser*/
+  color:#66BFBF;
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+a
+{
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+a:hover
+{
+  color:#EAF6F6;
+}
+hr
+{
+  width:5%;
+  border-width: 5px;
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  margin:100px auto;
+}
+.skill-row
+{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+}
+.java-img
+{
+  width:25%;
+  height:100px;
+  float:left;/*used to wrap the text around the image which is currently set to float around the left of the text*/
+  margin-right: 30px;
+}
+.webdev-img
+{
+  width:25%;
+  height:100px;
+  float:right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+  /*this ensures that we can use the top container to put absolute positions to the images wrt the top container*/
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.Pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.contact-info
+{
+  width:40%;
+  margin: 40px auto 60px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+/*.javapdesc
+{
+  clear:left;(prevents the text from wrapping around anything on its left side)
+}
+*/
+
+.intro
+{
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 20px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.middle-container
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
